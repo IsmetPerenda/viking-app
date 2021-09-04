@@ -1,0 +1,22 @@
+.main-footer {
+    padding-top: 5px;
+    height: 50px;
+    box-shadow: -3px -1px 6px 0px;
+    position: relative;
+    top: 20vh;
+    width: auto;
+}
+
+.footer-text i {
+    margin-left: 3px;
+    width: 30px;
+    height: auto;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+h5 {
+    margin-top: 0;
+}

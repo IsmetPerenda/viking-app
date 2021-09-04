@@ -1,0 +1,55 @@
+.menuItemCardStyle {
+    display: inline-flex;
+    height: fit-content;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    min-width: 450px;
+}
+
+
+    .menuItemCardStyle p {
+        font-size: 40px;
+        margin-left: 40px;
+        margin-right: 17px;
+        font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        height: 70px;
+    }
+
+.teamImageContainer {
+    object-fit: cover;
+    height: 111px;
+    padding: 2px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 7px 1px;
+    margin-right: 22px;
+    width: 112px;
+}
+
+
+.titlePriceContainer {
+    display: contents;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .menuItemCardStyle {
+        display: block;
+        max-width: 320px;
+        min-width: 300px;
+    }
+
+    .teamImageContainer {
+        margin-left: 30%;
+    }
+
+    .titlePriceContainer {
+        display: flex;
+    }
+}

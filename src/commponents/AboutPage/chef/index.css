@@ -1,0 +1,91 @@
+
+
+.ourHistoryContainer {
+    margin: 30px;
+    text-align: center;
+}
+
+.ourHistoryImgStyle {
+    background-image: url(https://cms.bitlab.host/api/data/74/objects/371/to-brcko.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ourHistoryImgStyle2 {
+    background-image: url(https://i1.wp.com/wheelchairtravel.org/wp-content/uploads/2020/01/agencies-v2020-page-header-scaled.jpg?resize=1920%2C1024&ssl=1 );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.ourHistoryColumns {
+    max-width: 650px;
+    min-height: 460px;
+    padding: 4vw;
+    border: 1vw solid #000;
+    text-align: justify;
+}
+
+
+
+.aboutUsTxtContent {
+    margin-top: 3em;
+    text-align: center;
+}
+
+    .aboutUsTxtContent h1 {
+        font-size: 45px;
+        font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+        font-weight: 100;
+        color: #FBD99A;
+        font-style: italic;
+        margin: 0px !important;
+    }
+
+
+
+    .aboutUsTxtContent h2 {
+        font-size: 35px;
+        font-weight: 400;
+        font-family: serif;
+        margin-bottom: 20px;
+    }
+
+    .aboutUsTxtContent h5 {
+        border-top: 2px solid #FBD99A;
+        margin-left: 40%;
+        margin-right: 40%;
+        color: #000;
+    }
+
+
+.ourHistoryColumnGridContainer {
+    justify-content: center;
+    margin-top: 100px !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .aboutUsTxtContent {
+        margin-top: 3em;
+        text-align: justify;
+    }
+
+        .aboutUsTxtContent h2 {
+            font-size: 25px;
+        }
+
+    .ourHistoryColumns {
+        min-height: 300px;
+    }
+}
+
+
+@media only screen and (min-width: 1700px ) {
+    .ourHistoryContainer {
+        max-width: 75%;
+        margin-left: 11%;
+    }
+}

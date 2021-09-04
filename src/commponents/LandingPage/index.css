@@ -1,0 +1,47 @@
+.landingPagePhotoContainer {
+    background-image: url(https://wallpapercave.com/wp/wp2840991.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    padding-top: 100px;
+}
+
+
+.landingPageTextContainer {
+    height: 100%;
+    margin-left: 5em;
+    background-color: #a4e2df8a;
+    width: 80%;
+    text-align: center;
+    padding-top: 91px;
+    max-width: 700px;
+    max-height: 400px;
+}
+
+
+
+    .landingPageTextContainer h1 {
+        font-size: 70px;
+        font-family: serif;
+        font-weight: 100;
+    }
+
+    .landingPageTextContainer h3 {
+        font-size: 40px;
+        font-weight: 100;
+        font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+        color: #0b082c;
+    }
+
+@media only screen and (max-width: 600px) {
+    .landingPageTextContainer h1 {
+        font-size: 24px;
+    }
+
+    .landingPageTextContainer {
+        width: auto;
+    }
+
+}
